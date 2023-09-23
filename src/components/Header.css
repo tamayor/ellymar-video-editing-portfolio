@@ -28,3 +28,11 @@
 .about-show a ,.about-show p,.about-show h2,.about-show h3{
     color: var(--color-main);
 }
+@media (min-width: 690px) {
+    header{
+        max-width: 50vw ;
+    }
+    .about, .about-show{
+        position: relative;
+    }
+}
