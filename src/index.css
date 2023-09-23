@@ -11,3 +11,20 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+*{
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Encode Sans', sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
+}
+:root{
+  font-size: 12px;
+  --color-main : rgb(224, 255, 232);
+  --color-2 : rgb(147, 168, 153);
+  --color-3 : rgb(39, 39, 39);
+  --bg-main : black;
+  
+}
+html{
+  background-color: black;
+}

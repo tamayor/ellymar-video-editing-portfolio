@@ -1,0 +1,30 @@
+
+.playlist-container {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.playlist-container h2 {
+    color: var(--color-main);
+    position: absolute;
+    font-size: clamp(3rem, 4vw, 8rem);
+    margin: 0;
+}
+
+.data-img {
+    max-width: 200px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin: 0 5px;
+}
+.marquee {
+    mask: linear-gradient(to left,black  0%, transparent 40%,  transparent 60%, black 100%);
+    display: flex;
+    z-index: -10;
+    filter: brightness(70%);
+}

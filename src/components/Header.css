@@ -1,0 +1,30 @@
+.about{
+    position: relative;
+    top: 0;
+    margin-top: 10px;
+    padding: 5px;
+    max-height: 30px;
+    overflow: hidden;
+    transition: all .5s ease;
+    border-bottom: 1px solid var(--color-3);
+    z-index: 0;
+}
+.about a ,.about p,.about h2,.about h3{
+    color: var(--color-2);
+}
+.about-show {
+    color: var(--color-main);
+    position: sticky;
+    top: 0;
+    margin-top: 10px;
+    padding: 10px;
+    overflow: hidden;
+    max-height: 1000px;
+    background-color: rgb(0, 0, 0);
+    border-bottom: 3px solid var(--color-main);
+    transition: all 1s ease;
+    z-index: 1;
+}
+.about-show a ,.about-show p,.about-show h2,.about-show h3{
+    color: var(--color-main);
+}
