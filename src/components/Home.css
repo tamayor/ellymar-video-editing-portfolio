@@ -73,6 +73,7 @@
     left: 50%;
     width: 100%;
     transform: translateX(-50%);
+    cursor: pointer;
 }
 .rendered-playlist{
     display: flex;

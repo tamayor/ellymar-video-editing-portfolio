@@ -32,7 +32,7 @@ export default function Home(){
         return(
             <div
             key={item.link} 
-            className="img-container" onClick={()=>{setIframePop(true);setPlaylist(null);}}
+            className="img-container" onClick={()=>{setIframePop(true);}}
             >
                 <img src={item.img} alt="latest video" className='latest-img'/>
             </div>    

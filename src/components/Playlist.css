@@ -24,6 +24,7 @@
     max-width: 300px;
     max-height: 300px;
     border-radius: 5px;
+    cursor: pointer;
 }
 .image-container{
     width: fit-content;

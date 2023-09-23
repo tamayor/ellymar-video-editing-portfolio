@@ -8,6 +8,7 @@
     transition: all .5s ease;
     border-bottom: 1px solid var(--color-3);
     z-index: 0;
+    cursor: pointer;
 }
 .about a ,.about p,.about h2,.about h3{
     color: var(--color-2);

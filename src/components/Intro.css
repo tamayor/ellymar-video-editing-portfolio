@@ -34,6 +34,7 @@
     text-align: justify;
     text-justify: inter-character;
     color: var(--color-2);
+    font-size: clamp(1rem, 4vw, 1.5rem);
 }
 .link-home{
     color: var(--color-main);
@@ -63,5 +64,11 @@
     100%{    
         border-bottom: 1px solid var(--color-main) ;
         border-top: 1px solid var(--color-main) ;
+    }
+}
+@media (min-width:690px){
+    .facts-welcome-message{
+        width: 35%;
+        text-align: center;
     }
 }
