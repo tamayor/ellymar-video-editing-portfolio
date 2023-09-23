@@ -1,8 +1,4 @@
-:root{
-    font-size: 12px;
-    --color-main : rgb(224, 255, 232);
-    --color-1 : rgb(77, 86, 79);
-}
+
 .Playlist{
     min-height: max-content;
 }
