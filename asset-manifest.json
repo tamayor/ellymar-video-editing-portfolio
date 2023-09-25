@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ellymar-video-editing-portfolio/static/css/main.d6be03ea.css",
-    "main.js": "/ellymar-video-editing-portfolio/static/js/main.b0eeb565.js",
+    "main.css": "/ellymar-video-editing-portfolio/static/css/main.fa5f81d3.css",
+    "main.js": "/ellymar-video-editing-portfolio/static/js/main.6f5faee5.js",
     "static/js/787.1095d481.chunk.js": "/ellymar-video-editing-portfolio/static/js/787.1095d481.chunk.js",
     "static/media/dagyaw basa.png": "/ellymar-video-editing-portfolio/static/media/dagyaw basa.32c7bd72c4a34874e196.png",
     "static/media/mothersday.png": "/ellymar-video-editing-portfolio/static/media/mothersday.c0e0e606b691246c4551.png",
@@ -49,12 +49,12 @@
     "static/media/tatming cover.jpg": "/ellymar-video-editing-portfolio/static/media/tatming cover.eb96a5e5e077540b4686.jpg",
     "static/media/yeelightPro.png": "/ellymar-video-editing-portfolio/static/media/yeelightPro.0d9b07fab36267a01ecb.png",
     "index.html": "/ellymar-video-editing-portfolio/index.html",
-    "main.d6be03ea.css.map": "/ellymar-video-editing-portfolio/static/css/main.d6be03ea.css.map",
-    "main.b0eeb565.js.map": "/ellymar-video-editing-portfolio/static/js/main.b0eeb565.js.map",
+    "main.fa5f81d3.css.map": "/ellymar-video-editing-portfolio/static/css/main.fa5f81d3.css.map",
+    "main.6f5faee5.js.map": "/ellymar-video-editing-portfolio/static/js/main.6f5faee5.js.map",
     "787.1095d481.chunk.js.map": "/ellymar-video-editing-portfolio/static/js/787.1095d481.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d6be03ea.css",
-    "static/js/main.b0eeb565.js"
+    "static/css/main.fa5f81d3.css",
+    "static/js/main.6f5faee5.js"
   ]
 }
