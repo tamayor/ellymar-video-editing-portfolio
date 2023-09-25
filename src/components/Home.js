@@ -14,6 +14,8 @@ export default function Home(){
     const [showNavClose, setShowNavClose] = React.useState(false);
     const [playlist, setPlaylist] = React.useState("clients");
     
+
+    
     const filteredIframes = Data.filter(item => item.latest).map(item => {
         return(
             <div key={item.link} className='iframe'>
