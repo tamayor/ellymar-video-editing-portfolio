@@ -2,7 +2,7 @@ import React from 'react'
 
 import Data from './Data'
 import './Playlist.css'
-export default function Playlist({playlist, market, software}){
+export default function Playlist({playlist}){
     const [picToVid, showPicToVid] = React.useState("");
     const [popVideoPlaylist, setPopVideoPlaylist] = React.useState(false);
 

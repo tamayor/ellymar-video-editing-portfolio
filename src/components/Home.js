@@ -13,9 +13,7 @@ export default function Home(){
     const [showNav, setShowNav] = React.useState("");
     const [showNavClose, setShowNavClose] = React.useState(false);
     const [playlist, setPlaylist] = React.useState("clients");
-    
 
-    
     const filteredIframes = Data.filter(item => item.latest).map(item => {
         return(
             <div key={item.link} className='iframe'>
@@ -83,7 +81,7 @@ export default function Home(){
             </div>
             <section className="Main-content">
                 <div>
-                    <h3 className='latest-sign'>LATEST</h3>
+                    <h3 className="latest-sign">LATEST</h3>
                     {latestImg}
                 </div>
                 <div>
