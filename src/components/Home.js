@@ -12,7 +12,7 @@ export default function Home(){
     const[iframePop, setIframePop] = React.useState(false);
     const [showNav, setShowNav] = React.useState("");
     const [showNavClose, setShowNavClose] = React.useState(false);
-    const [playlist, setPlaylist] = React.useState("clients")
+    const [playlist, setPlaylist] = React.useState("clients");
     
     const filteredIframes = Data.filter(item => item.latest).map(item => {
         return(
@@ -20,9 +20,8 @@ export default function Home(){
                 <iframe
                 src={item.link}
                 title="YouTube video player"  
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                allowfullscreen
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share;" 
+                allowFullScreen={true}
                 ></iframe>
                 <p>pause the video before closing</p>
             </div>
@@ -49,8 +48,11 @@ export default function Home(){
             )
         })
         return(
-            <div className='playlist-container' onClick={()=>setPlaylist(playlistType)}>
-                <h2>{playlistType}</h2> 
+            <div className='playlist-container' 
+                onClick={()=>{
+                    setPlaylist(playlistType); 
+                }}>
+                <h2>{playlistType.toUpperCase()}</h2> 
                 <Marquee  play={true} speed={10} className='marquee'
                 >
                     {playlists}
@@ -103,7 +105,7 @@ export default function Home(){
                     </div>
                 </div>
             </section>
-            <Playlist playlist={playlist}/>
+            <Playlist playlist={playlist} />
         </main>
     )
 }

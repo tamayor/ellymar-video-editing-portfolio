@@ -19,8 +19,8 @@ code {
 }
 :root{
   font-size: 12px;
-  --color-main : rgb(224, 255, 232);
-  --color-2 : rgb(147, 168, 153);
+  --color-main : rgb(255, 244, 244);
+  --color-2 : rgb(168, 147, 147);
   --color-3 : rgb(39, 39, 39);
   --bg-main : black;
   

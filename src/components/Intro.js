@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Intro.css';
+import profilePhoto from './images/Elly.jpg'
 
 
 export default function Intro() {
@@ -11,8 +12,9 @@ export default function Intro() {
         <div className='title'>
             <h1 className='ellymarportfolio'>ELLY MAR PORTFOLIO</h1>
         </div>
+        <img className='profile-photo' src={profilePhoto} alt='ellymar profile'/>
         <Link to='/home'>
-            <button className='link-home'>Give me more!</button>
+            <button className='link-home'>Show me more!</button>
         </Link>
         <div className='facts'>
             <p className='facts-welcome-message'>
