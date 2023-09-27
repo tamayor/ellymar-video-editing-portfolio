@@ -65,6 +65,7 @@
     color: var(--color-main);
     background: linear-gradient( to top, transparent, black);
     z-index: 101;
+    cursor: pointer;
 }
 .latest-img{
     position: relative;
@@ -115,7 +116,7 @@
         background-color: transparent;
         transition: all .5s ease;
         z-index: 1;
-        transform: translateY(-500px);
+        transform: translateY(-600px);
         transition:  all .5s ease , backdrop-filter 3s ease;
     }
     .iframe{
@@ -130,8 +131,8 @@
         text-align: center;
     }
     .iframe iframe{
-        width: 50%;
-        min-height: 50vh;
+        width: 70%;
+        min-height: 70vh;
         border: none;
     }
     .Main-content{
@@ -173,7 +174,7 @@
         justify-content: center;
     }
     .Main-content:first-child, .Main-content:nth-child(2){
-        width: 50vw;
+        width: 30vw;
     }
     .Main-content:last-child{
         overflow-y: auto;

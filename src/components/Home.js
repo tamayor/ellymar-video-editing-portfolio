@@ -72,16 +72,13 @@ export default function Home(){
     return(
         <main className="Main" >
             <div className={iframePop ? "iframe-container" : "iframe-container-hide"}
-                onClick={()=>{
-                    setIframePop(val=>!val); 
-
-                }}
+                onClick={()=>{setIframePop(val=>!val)}}
             >
                 {filteredIframes}
             </div>
             <section className="Main-content">
                 <div>
-                    <h3 className="latest-sign">LATEST</h3>
+                    <h3 className="latest-sign" onClick={()=>{setIframePop(val=>!val)}}>LATEST</h3>
                     {latestImg}
                 </div>
                 <div>
