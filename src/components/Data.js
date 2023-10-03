@@ -43,9 +43,28 @@ import contentcreator from './images/contentcreation.png'
 import plasticbot from './images/plasticbottle.png'
 import grabfinal from './images/grabfinal.png'
 import ifoundthe1 from './images/ifoundthe1.png'
-
+import pagsibol from './images/pagsibol.png'
+import btcamp from './images/breakthrougCamp.png'
 
  const Data = [
+    {name: "Breakthrough Camp",
+        playlist: "clients",
+        link:"https://www.youtube.com/embed/ywmGahnUfP4?si=h4HzEmjeDgViS-oY" ,
+        img: btcamp,
+        format: "horizontal",
+        software: "premiere pro",
+        market: "international",
+        latest: true,
+    },
+    {name: "Pagsibol",
+        playlist: "clients",
+        link:"https://www.youtube.com/embed/S4X9ild5Hv0?si=VdbqDZ1BOg_yiEmZ",
+        img: pagsibol,
+        format: "horizontal",
+        software: "premiere pro",
+        market: "national",
+        latest: false,
+    },
     {name: "SK Shenanigans",
         playlist: "vlogs",
         link:"https://www.youtube.com/embed/2Dmes5jeGd4?si=KLlX3yB6LcTpd_SN",
@@ -62,7 +81,7 @@ import ifoundthe1 from './images/ifoundthe1.png'
       format: "horizontal",
       software: "premiere pro",
       market: "international",
-      latest: true,
+      latest: false,
     },
     {name: "FlipKingX",
       playlist: "clients",
