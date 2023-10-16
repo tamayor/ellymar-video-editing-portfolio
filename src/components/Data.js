@@ -45,8 +45,17 @@ import grabfinal from './images/grabfinal.png'
 import ifoundthe1 from './images/ifoundthe1.png'
 import pagsibol from './images/pagsibol.png'
 import btcamp from './images/breakthrougCamp.png'
-
+import aizy18 from './images/aizy18.png'
  const Data = [
+    {name: "Aizy 18th Birthday",
+        playlist: "clients",
+        link:"https://www.youtube.com/embed/BLf-jT-DKcY?si=2764lpVSDEXKzgUu",
+        img: aizy18,
+        format: "horizontal",
+        software: "davinci resolve",
+        market: "local",
+        latest: true,
+    },
     {name: "Breakthrough Camp",
         playlist: "clients",
         link:"https://www.youtube.com/embed/ywmGahnUfP4?si=h4HzEmjeDgViS-oY" ,
@@ -54,7 +63,7 @@ import btcamp from './images/breakthrougCamp.png'
         format: "horizontal",
         software: "premiere pro",
         market: "international",
-        latest: true,
+        latest: false,
     },
     {name: "Pagsibol",
         playlist: "clients",
